@@ -7,7 +7,7 @@ const layout = (props) => (
         <div>
             Toolbar, SideDrawer, Backdrop
         </div>
-        {JSON.stringify(classes)}
+        
         <main className={classes.Content}>
             {props.children}
         </main>
